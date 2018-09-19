@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--将springmvc处理不了的请求交给tomcat。静态资源就可以访问-->
+ <!--   <mvc:default-servlet-handler/>
+    &lt;!&ndash;springmvc静态资源开启&ndash;&gt;
+    <mvc:annotation-driven/>-->
+
+    <!--<mvc:interceptors>
+
+    </mvc:interceptors>-->
+</beans>
