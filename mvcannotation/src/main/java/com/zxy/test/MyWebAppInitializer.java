@@ -4,10 +4,7 @@ import com.zxy.test.config.AppConfig;
 import com.zxy.test.config.RootConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-
-//web����������ʱ�򴴽����󣻵��÷�������ʼ��������ǰǰ�˿�����
 public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
-
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {

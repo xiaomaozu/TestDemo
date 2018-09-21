@@ -58,7 +58,7 @@ import org.springframework.context.annotation.Primary;
         "com.zxy.test.springannotation.dao","com.zxy.test.springannotation.bean"})
 public class MainConifgOfAutowired {
 
-     @Primary
+    @Primary
     @Bean("bookDao2")
     public BookDao bookDao(){
         BookDao bookDao = new BookDao();

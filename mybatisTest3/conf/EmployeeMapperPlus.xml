@@ -20,6 +20,7 @@
         <result column="email" property="email"/>
         <result column="gender" property="gender"/>
         <result column="last_name" property="lastName"></result>
+        <association property=""></association>
     </resultMap>
     <!--
             联合查询：级联属性封装结果集

@@ -3,6 +3,7 @@ package com.zxy.test.config;
 
 import java.util.List;
 
+import com.zxy.test.intercept.MyFirstIntercept;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ComponentScan.Filter;
 import org.springframework.context.annotation.FilterType;
@@ -34,13 +35,21 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 // 实现该接口 WebMvcConfigurer 该接口中方法较多，故改成继承实现该接口的抽象方法来重写需要的方法配置
 public class AppConfig extends WebMvcConfigurerAdapter {
 
-	//定制
-
-	//视图解析器
-
-
+	//定制视图解析器
 	@Override
 	public void configureViewResolvers(ViewResolverRegistry registry) {
 		registry.jsp("/WEB-INF/views/",".jsp");
 	}
+
+	//静态资源访问
+	@Override
+	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+		configurer.enable();
+	}
+
+	//配置拦截器
+
+	/*public void addInterceptors(InterceptorRegistry registry) {
+		registry.addInterceptor(new MyFirstIntercept()).addPathPatterns("/**");
+	}*/
 }
