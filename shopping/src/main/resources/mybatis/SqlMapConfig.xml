@@ -4,6 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+    <!--导入pageHelper插件-->
     <plugins>
         <plugin interceptor="com.github.pagehelper.PageHelper">
             <!-- 配置数据库类型，Mysql，MariaDB，SQLite -->

@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a20f0e2-02f5-44f3-af49-f2f0960ddefd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAProjectCoding/MapperProject/.idea/MapperProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAProjectCoding/MapperProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAProjectCoding/MapperProject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVAProjectCoding/MapperProject/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shopping/src/main/java/META-INF.services/javax.servlet.ServletContainerInitializer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shopping/src/main/java/com/zxy/test/common/controller/ErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shopping/src/main/java/com/zxy/test/servletcontainerinitializer/MyServletContainerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shopping/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvcannotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mvcannotation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvcannotation/src/main/java/com/zxy/test/MyWebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mvcannotation/src/main/java/com/zxy/test/MyWebAppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvcannotation/src/main/java/com/zxy/test/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mvcannotation/src/main/java/com/zxy/test/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvcannotation/target/classes/com/zxy/test/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mvcannotation/target/classes/com/zxy/test/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvcannotation/target/srpingmvcannotation-1.0-SNAPSHOT/WEB-INF/classes/com/zxy/test/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mvcannotation/target/srpingmvcannotation-1.0-SNAPSHOT/WEB-INF/classes/com/zxy/test/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatisTest3/conf/EmployeeMapperPlus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatisTest3/conf/EmployeeMapperPlus.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servlet3.0Annotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servlet3.0Annotation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shiro-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shiro-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springMVC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zxy/test/springannotation/config/MainConifgOfAutowired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zxy/test/springannotation/config/MainConifgOfAutowired.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shopping/src/main/resources/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shopping/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
