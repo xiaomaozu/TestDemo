@@ -14,7 +14,6 @@ public class HelloController {
 	@Autowired
 	HelloService helloService;
 	
-	
 	@ResponseBody
 	@RequestMapping("/hello")
 	public String hello(){
@@ -27,6 +26,5 @@ public class HelloController {
 	public String success(){
 		return "success";
 	}
-	
 
 }
