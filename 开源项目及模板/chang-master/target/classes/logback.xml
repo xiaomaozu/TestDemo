@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="LOG_HOME" value=""/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} - %thread - %-5level - %logger{100}.%M - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="dailyRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${LOG_HOME}/app.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <FileNamePattern>${LOG_HOME}/app.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <!-- 保留 30天数据，默认无限-->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{100} - %msg %n</Pattern>
+        </encoder>
+    </appender>
+    <root>
+        <level value="DEBUG"/>
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="dailyRollingFileAppender"/>
+    </root>
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="springfox" level="WARN"/>
+    <logger name="org.hibernate" level="WARN"/>
+    <logger name="org.mybatis.spring.SqlSessionUtils" level="WARN"/>
+</configuration>

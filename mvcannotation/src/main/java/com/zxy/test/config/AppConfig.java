@@ -48,7 +48,6 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 	}
 
 	//配置拦截器
-
 	/*public void addInterceptors(InterceptorRegistry registry) {
 		registry.addInterceptor(new MyFirstIntercept()).addPathPatterns("/**");
 	}*/
