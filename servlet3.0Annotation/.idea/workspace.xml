@@ -20,8 +20,8 @@
       <file leaf-file-name="MyServletContainerInitializer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zxy/test/servlet/MyServletContainerInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="135">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,7 +151,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1931" />
     <option name="y" value="-11" />
     <option name="width" value="1943" />
@@ -162,9 +162,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -392,14 +392,15 @@
       <workItem from="1537495491343" duration="7680000" />
       <workItem from="1537843888173" duration="581000" />
       <workItem from="1537844555669" duration="597000" />
+      <workItem from="1537941278694" duration="2691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24688000" />
+    <option name="totallyTimeSpent" value="27379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1927" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-1927" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -416,7 +417,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29795918" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2522449" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -446,13 +447,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/META-INF/services/javax.servlet.ServletContainerInitializer">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" lean-forward="true" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zxy/test/servlet/UserFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -823,10 +817,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/services/javax.servlet.ServletContainerInitializer">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zxy/test/servlet/MyServletContainerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="135">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
