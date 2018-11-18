@@ -13,7 +13,6 @@ public class ShiroService {
         Session session = SecurityUtils.getSubject().getSession();
         System.out.println("test method "+ new Date());
         System.out.println(session.getAttribute("key"));
-
     }
 
 }

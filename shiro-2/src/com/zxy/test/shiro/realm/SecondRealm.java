@@ -4,7 +4,8 @@ import org.apache.shiro.authc.*;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.realm.AuthenticatingRealm;
 import org.apache.shiro.util.ByteSource;
-
+//AuthenticatingRealm 也是继承了Ream 但是只是实现了认证；
+// AuthorizingRealm 既实现了授权，也可以实现认证
 public class SecondRealm extends AuthenticatingRealm {
 
     @Override
@@ -39,7 +40,6 @@ public class SecondRealm extends AuthenticatingRealm {
 
         //"fc1709d0a95a6be30bc5926fdb7f22f4";
         if("admin".equals(username)){
-
             credentials = "ce2f6417c7e1d32c1d81a797ee0b499f87c5de06";
         }else if("user".equals(username)){
             credentials = "073d4c3ae812935f23cb3f2a71943f49e082a718";
@@ -50,17 +50,16 @@ public class SecondRealm extends AuthenticatingRealm {
         //4). 盐值.
         ByteSource credentialsSalt = ByteSource.Util.bytes(username);
 
-       SimpleAuthenticationInfo info = null;//new SimpleAuthenticationInfo(principal, credentials, realmName);
+        SimpleAuthenticationInfo info = null;
+        //new SimpleAuthenticationInfo(principal, credentials, realmName);
         info = new SimpleAuthenticationInfo(principal, credentials, credentialsSalt, realmName);
-
         return info;
-
     }
 
     public static void main(String[] args) {
         String hashAlgorithmName = "SHA1";
         Object credentials = "123456";
-        Object salt = ByteSource.Util.bytes("admin");
+        Object salt = ByteSource.Util.bytes("123");
         int hashIterations = 1024;
 
         Object result = new SimpleHash(hashAlgorithmName, credentials, salt, hashIterations);

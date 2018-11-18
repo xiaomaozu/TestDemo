@@ -1,0 +1,32 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: dev
+#  ---  代表分成不同的文档块
+---
+server:
+  port: 8085
+spring:
+  profiles: dev
+
+---
+
+server:
+  port: 8086
+spring:
+  profiles: prod
+
+
+#person:
+#  lastName: zhangsan
+#  age: 20
+#  boss: false
+#  birth: 2018/08/10
+#  maps: {k1: v1,k2: 12}
+#  lists:
+#    - lisi
+#    - zhaoliu
+#  dog:
+#    name: xiagou
+#    age: 5

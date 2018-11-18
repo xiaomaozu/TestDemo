@@ -17,8 +17,24 @@ import org.apache.shiro.realm.AuthenticatingRealm;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
-
+/*
+ * description:apache的shiro中提供了一些线程的realm接口，这里说一下AuthorizingRealm这个类。在用户登录的时候，
+ * 一般我们的系统要对用户进行认证和授权两个最进本的处理，
+ * 在shiro中的所有的登录、授权处理都会交给一个realm处理，所以处理流程都是先认证然后授权，AuthorizingRealm授权类继承
+ * 了AuthenticatingRealm认证类，所以在AuthorizingRealm类中有一个继承来的doGetAuthenticationInfo方法，一个自身的doGetAuthorzationInfo方法，
+ * 在实际项目使用中我们的项目就是使用AuthorzingRealm这个类的实现类来自定义认证和授权的处理过程，在web项目中使用自定义的类继承AuthorzingRealm类，
+ * 实现doGetAuthentcationInfo方法实现用户登录时的认证逻辑；
+ * 实现doGetAuthrozitionInfo方法实现用户的授权逻辑；
+ * 在与spring整合项目中，shiro的SecurityManager会自动调用这两个方法，从而实现认证和授权，
+ * 可以结合shiro的CacheManager将认证和授权信息保存在缓存中，这样可以提高系统的处理效率。
+ * @author 曾鑫曜 (xinyao.zeng@ucarinc.com)
+ * @date 2018/9/30 14:39
+ * @param  
+ * @return 
+ **/
+//AuthorizingRealm 实现认证和授权
 public class ShiroRealm extends AuthorizingRealm {
+
 
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
