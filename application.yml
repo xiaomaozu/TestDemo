@@ -1,0 +1,16 @@
+spring:
+ profiles:
+  active:
+   - dev
+
+---
+spring: 
+ profiles:dev
+ application:
+  name:microservicecloud-config-zxy-dev
+
+---
+srping:
+ profiles:test
+ application:
+  name:microservicecloud-config-zxy.test
